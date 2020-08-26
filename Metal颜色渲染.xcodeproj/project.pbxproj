@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA21E6624F518D9009B1836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E6524F518D9009B1836 /* AppDelegate.m */; };
+		9CA21E6924F518D9009B1836 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E6824F518D9009B1836 /* SceneDelegate.m */; };
+		9CA21E6C24F518D9009B1836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E6B24F518D9009B1836 /* ViewController.m */; };
+		9CA21E6F24F518D9009B1836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA21E6D24F518D9009B1836 /* Main.storyboard */; };
+		9CA21E7124F518DD009B1836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA21E7024F518DD009B1836 /* Assets.xcassets */; };
+		9CA21E7424F518DD009B1836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA21E7224F518DD009B1836 /* LaunchScreen.storyboard */; };
+		9CA21E7724F518DD009B1836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E7624F518DD009B1836 /* main.m */; };
+		9CA21E8124F518DD009B1836 /* Metal____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E8024F518DD009B1836 /* Metal____Tests.m */; };
+		9CA21E8C24F518DD009B1836 /* Metal____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E8B24F518DD009B1836 /* Metal____UITests.m */; };
+		9CA21E9B24F51993009B1836 /* ZXRender.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E9A24F51993009B1836 /* ZXRender.metal */; };
+		9CA21E9F24F519E1009B1836 /* ColorRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA21E9E24F519E1009B1836 /* ColorRender.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA21E7D24F518DD009B1836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA21E5924F518D9009B1836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA21E6024F518D9009B1836;
+			remoteInfo = "Metal颜色渲染";
+		};
+		9CA21E8824F518DD009B1836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA21E5924F518D9009B1836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA21E6024F518D9009B1836;
+			remoteInfo = "Metal颜色渲染";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CA21E6124F518D9009B1836 /* Metal颜色渲染.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metal颜色渲染.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA21E6424F518D9009B1836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CA21E6524F518D9009B1836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CA21E6724F518D9009B1836 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9CA21E6824F518D9009B1836 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9CA21E6A24F518D9009B1836 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CA21E6B24F518D9009B1836 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CA21E6E24F518D9009B1836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CA21E7024F518DD009B1836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA21E7324F518DD009B1836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CA21E7524F518DD009B1836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA21E7624F518DD009B1836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CA21E7C24F518DD009B1836 /* Metal颜色渲染Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal颜色渲染Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA21E8024F518DD009B1836 /* Metal____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Metal____Tests.m"; sourceTree = "<group>"; };
+		9CA21E8224F518DD009B1836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA21E8724F518DD009B1836 /* Metal颜色渲染UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal颜色渲染UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA21E8B24F518DD009B1836 /* Metal____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Metal____UITests.m"; sourceTree = "<group>"; };
+		9CA21E8D24F518DD009B1836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA21E9A24F51993009B1836 /* ZXRender.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ZXRender.metal; sourceTree = "<group>"; };
+		9CA21E9C24F519AB009B1836 /* ZXRenderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRenderTypes.h; sourceTree = "<group>"; };
+		9CA21E9D24F519E1009B1836 /* ColorRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorRender.h; sourceTree = "<group>"; };
+		9CA21E9E24F519E1009B1836 /* ColorRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorRender.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA21E5E24F518D9009B1836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA21E7924F518DD009B1836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA21E8424F518DD009B1836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA21E5824F518D9009B1836 = {
+			isa = PBXGroup;
+			children = (
+				9CA21E6324F518D9009B1836 /* Metal颜色渲染 */,
+				9CA21E7F24F518DD009B1836 /* Metal颜色渲染Tests */,
+				9CA21E8A24F518DD009B1836 /* Metal颜色渲染UITests */,
+				9CA21E6224F518D9009B1836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA21E6224F518D9009B1836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA21E6124F518D9009B1836 /* Metal颜色渲染.app */,
+				9CA21E7C24F518DD009B1836 /* Metal颜色渲染Tests.xctest */,
+				9CA21E8724F518DD009B1836 /* Metal颜色渲染UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA21E6324F518D9009B1836 /* Metal颜色渲染 */ = {
+			isa = PBXGroup;
+			children = (
+				9CA21E9924F518ED009B1836 /* Render */,
+				9CA21E6424F518D9009B1836 /* AppDelegate.h */,
+				9CA21E6524F518D9009B1836 /* AppDelegate.m */,
+				9CA21E6724F518D9009B1836 /* SceneDelegate.h */,
+				9CA21E6824F518D9009B1836 /* SceneDelegate.m */,
+				9CA21E6A24F518D9009B1836 /* ViewController.h */,
+				9CA21E6B24F518D9009B1836 /* ViewController.m */,
+				9CA21E6D24F518D9009B1836 /* Main.storyboard */,
+				9CA21E7024F518DD009B1836 /* Assets.xcassets */,
+				9CA21E7224F518DD009B1836 /* LaunchScreen.storyboard */,
+				9CA21E7524F518DD009B1836 /* Info.plist */,
+				9CA21E7624F518DD009B1836 /* main.m */,
+			);
+			path = "Metal颜色渲染";
+			sourceTree = "<group>";
+		};
+		9CA21E7F24F518DD009B1836 /* Metal颜色渲染Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA21E8024F518DD009B1836 /* Metal____Tests.m */,
+				9CA21E8224F518DD009B1836 /* Info.plist */,
+			);
+			path = "Metal颜色渲染Tests";
+			sourceTree = "<group>";
+		};
+		9CA21E8A24F518DD009B1836 /* Metal颜色渲染UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA21E8B24F518DD009B1836 /* Metal____UITests.m */,
+				9CA21E8D24F518DD009B1836 /* Info.plist */,
+			);
+			path = "Metal颜色渲染UITests";
+			sourceTree = "<group>";
+		};
+		9CA21E9924F518ED009B1836 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				9CA21E9A24F51993009B1836 /* ZXRender.metal */,
+				9CA21E9C24F519AB009B1836 /* ZXRenderTypes.h */,
+				9CA21E9D24F519E1009B1836 /* ColorRender.h */,
+				9CA21E9E24F519E1009B1836 /* ColorRender.m */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA21E6024F518D9009B1836 /* Metal颜色渲染 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA21E9024F518DD009B1836 /* Build configuration list for PBXNativeTarget "Metal颜色渲染" */;
+			buildPhases = (
+				9CA21E5D24F518D9009B1836 /* Sources */,
+				9CA21E5E24F518D9009B1836 /* Frameworks */,
+				9CA21E5F24F518D9009B1836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metal颜色渲染";
+			productName = "Metal颜色渲染";
+			productReference = 9CA21E6124F518D9009B1836 /* Metal颜色渲染.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CA21E7B24F518DD009B1836 /* Metal颜色渲染Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA21E9324F518DD009B1836 /* Build configuration list for PBXNativeTarget "Metal颜色渲染Tests" */;
+			buildPhases = (
+				9CA21E7824F518DD009B1836 /* Sources */,
+				9CA21E7924F518DD009B1836 /* Frameworks */,
+				9CA21E7A24F518DD009B1836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA21E7E24F518DD009B1836 /* PBXTargetDependency */,
+			);
+			name = "Metal颜色渲染Tests";
+			productName = "Metal颜色渲染Tests";
+			productReference = 9CA21E7C24F518DD009B1836 /* Metal颜色渲染Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CA21E8624F518DD009B1836 /* Metal颜色渲染UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA21E9624F518DD009B1836 /* Build configuration list for PBXNativeTarget "Metal颜色渲染UITests" */;
+			buildPhases = (
+				9CA21E8324F518DD009B1836 /* Sources */,
+				9CA21E8424F518DD009B1836 /* Frameworks */,
+				9CA21E8524F518DD009B1836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA21E8924F518DD009B1836 /* PBXTargetDependency */,
+			);
+			name = "Metal颜色渲染UITests";
+			productName = "Metal颜色渲染UITests";
+			productReference = 9CA21E8724F518DD009B1836 /* Metal颜色渲染UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA21E5924F518D9009B1836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = zhaixingxing;
+				TargetAttributes = {
+					9CA21E6024F518D9009B1836 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9CA21E7B24F518DD009B1836 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9CA21E6024F518D9009B1836;
+					};
+					9CA21E8624F518DD009B1836 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9CA21E6024F518D9009B1836;
+					};
+				};
+			};
+			buildConfigurationList = 9CA21E5C24F518D9009B1836 /* Build configuration list for PBXProject "Metal颜色渲染" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA21E5824F518D9009B1836;
+			productRefGroup = 9CA21E6224F518D9009B1836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA21E6024F518D9009B1836 /* Metal颜色渲染 */,
+				9CA21E7B24F518DD009B1836 /* Metal颜色渲染Tests */,
+				9CA21E8624F518DD009B1836 /* Metal颜色渲染UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA21E5F24F518D9009B1836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA21E7424F518DD009B1836 /* LaunchScreen.storyboard in Resources */,
+				9CA21E7124F518DD009B1836 /* Assets.xcassets in Resources */,
+				9CA21E6F24F518D9009B1836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA21E7A24F518DD009B1836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA21E8524F518DD009B1836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA21E5D24F518D9009B1836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA21E6C24F518D9009B1836 /* ViewController.m in Sources */,
+				9CA21E9F24F519E1009B1836 /* ColorRender.m in Sources */,
+				9CA21E6624F518D9009B1836 /* AppDelegate.m in Sources */,
+				9CA21E7724F518DD009B1836 /* main.m in Sources */,
+				9CA21E6924F518D9009B1836 /* SceneDelegate.m in Sources */,
+				9CA21E9B24F51993009B1836 /* ZXRender.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA21E7824F518DD009B1836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA21E8124F518DD009B1836 /* Metal____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA21E8324F518DD009B1836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA21E8C24F518DD009B1836 /* Metal____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CA21E7E24F518DD009B1836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA21E6024F518D9009B1836 /* Metal颜色渲染 */;
+			targetProxy = 9CA21E7D24F518DD009B1836 /* PBXContainerItemProxy */;
+		};
+		9CA21E8924F518DD009B1836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA21E6024F518D9009B1836 /* Metal颜色渲染 */;
+			targetProxy = 9CA21E8824F518DD009B1836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CA21E6D24F518D9009B1836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA21E6E24F518D9009B1836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CA21E7224F518DD009B1836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA21E7324F518DD009B1836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA21E8E24F518DD009B1836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CA21E8F24F518DD009B1836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA21E9124F518DD009B1836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WW38662NQ;
+				INFOPLIST_FILE = "Metal颜色渲染/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.Metal----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CA21E9224F518DD009B1836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WW38662NQ;
+				INFOPLIST_FILE = "Metal颜色渲染/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.Metal----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CA21E9424F518DD009B1836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Metal颜色渲染Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.Metal----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal颜色渲染.app/Metal颜色渲染";
+			};
+			name = Debug;
+		};
+		9CA21E9524F518DD009B1836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Metal颜色渲染Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.Metal----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal颜色渲染.app/Metal颜色渲染";
+			};
+			name = Release;
+		};
+		9CA21E9724F518DD009B1836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Metal颜色渲染UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.Metal----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metal颜色渲染";
+			};
+			name = Debug;
+		};
+		9CA21E9824F518DD009B1836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Metal颜色渲染UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.Metal----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metal颜色渲染";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA21E5C24F518D9009B1836 /* Build configuration list for PBXProject "Metal颜色渲染" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA21E8E24F518DD009B1836 /* Debug */,
+				9CA21E8F24F518DD009B1836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA21E9024F518DD009B1836 /* Build configuration list for PBXNativeTarget "Metal颜色渲染" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA21E9124F518DD009B1836 /* Debug */,
+				9CA21E9224F518DD009B1836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA21E9324F518DD009B1836 /* Build configuration list for PBXNativeTarget "Metal颜色渲染Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA21E9424F518DD009B1836 /* Debug */,
+				9CA21E9524F518DD009B1836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA21E9624F518DD009B1836 /* Build configuration list for PBXNativeTarget "Metal颜色渲染UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA21E9724F518DD009B1836 /* Debug */,
+				9CA21E9824F518DD009B1836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA21E5924F518D9009B1836 /* Project object */;
+}
